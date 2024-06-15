@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "cli run build",
+    "startTime": "2024-06-15T10:28:49.911Z",
+    "endTime": "2024-06-15T10:28:51.207Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "frontend:build",
+      "target": "build",
+      "projectName": "frontend",
+      "hash": "4455044142403769167",
+      "startTime": "2024-06-15T10:28:49.918Z",
+      "endTime": "2024-06-15T10:28:51.207Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

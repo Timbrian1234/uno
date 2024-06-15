@@ -1,0 +1,1033 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "lerna": "^8.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "frontend": [
+        {
+          "file": "frontend/.env.example",
+          "hash": "16734604513094188477"
+        },
+        {
+          "file": "frontend/.eslintrc.json",
+          "hash": "7989618958686029642"
+        },
+        {
+          "file": "frontend/.prettierrc.js",
+          "hash": "12108317620423637767"
+        },
+        {
+          "file": "frontend/next.config.js",
+          "hash": "4939126558196031455"
+        },
+        {
+          "file": "frontend/package.json",
+          "hash": "7961082712874771781",
+          "deps": [
+            "npm:@dnd-kit/core",
+            "npm:@tma.js/sdk-react",
+            "npm:autoprefixer",
+            "npm:bufferutil",
+            "npm:colyseus.js",
+            "npm:localtunnel",
+            "npm:next",
+            "npm:next-intl",
+            "npm:postcss",
+            "npm:react",
+            "npm:react-dom",
+            "npm:sharp",
+            "npm:tailwindcss",
+            "npm:@types/negotiator",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-beautiful-dnd",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-simple-import-sort",
+            "npm:prettier",
+            "npm:prettier-plugin-tailwindcss",
+            "npm:ts-node",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "frontend/postcss.config.js",
+          "hash": "8532665317902996476"
+        },
+        {
+          "file": "frontend/public/assets/@wallet.svg",
+          "hash": "3141954922454800437"
+        },
+        {
+          "file": "frontend/public/assets/ad.svg",
+          "hash": "1864798174246244073"
+        },
+        {
+          "file": "frontend/public/assets/arrow.svg",
+          "hash": "11823157662005054060"
+        },
+        {
+          "file": "frontend/public/assets/avatar.png",
+          "hash": "12130443761452214363"
+        },
+        {
+          "file": "frontend/public/assets/blue_fire.svg",
+          "hash": "661913439628381705"
+        },
+        {
+          "file": "frontend/public/assets/card.svg",
+          "hash": "739353494571678382"
+        },
+        {
+          "file": "frontend/public/assets/card_back.svg",
+          "hash": "14523518364032639370"
+        },
+        {
+          "file": "frontend/public/assets/cards_deck.svg",
+          "hash": "634135025623898049"
+        },
+        {
+          "file": "frontend/public/assets/coin.svg",
+          "hash": "17654281971950179881"
+        },
+        {
+          "file": "frontend/public/assets/confounded-face.svg",
+          "hash": "15843043999994636685"
+        },
+        {
+          "file": "frontend/public/assets/fire.svg",
+          "hash": "1602867246238431902"
+        },
+        {
+          "file": "frontend/public/assets/gamepad.svg",
+          "hash": "17030625202763565519"
+        },
+        {
+          "file": "frontend/public/assets/home.svg",
+          "hash": "3276878908355251936"
+        },
+        {
+          "file": "frontend/public/assets/people.svg",
+          "hash": "12086858598618615740"
+        },
+        {
+          "file": "frontend/public/assets/peoples.svg",
+          "hash": "11117409905344949149"
+        },
+        {
+          "file": "frontend/public/assets/plus.svg",
+          "hash": "4429132164791793120"
+        },
+        {
+          "file": "frontend/public/assets/trophy.svg",
+          "hash": "17696841891625396295"
+        },
+        {
+          "file": "frontend/public/assets/warn.svg",
+          "hash": "7025347207266926797"
+        },
+        {
+          "file": "frontend/src/app/[lang]/ad/page.tsx",
+          "hash": "5839100168268613481"
+        },
+        {
+          "file": "frontend/src/app/[lang]/afterDeposit/page.tsx",
+          "hash": "11504002838226715423"
+        },
+        {
+          "file": "frontend/src/app/[lang]/deposit/page.tsx",
+          "hash": "4585465303562985654"
+        },
+        {
+          "file": "frontend/src/app/[lang]/game/layout.tsx",
+          "hash": "4846340347112172263"
+        },
+        {
+          "file": "frontend/src/app/[lang]/game/page.tsx",
+          "hash": "4007047513318096951"
+        },
+        {
+          "file": "frontend/src/app/[lang]/layout.tsx",
+          "hash": "3965410010987374637"
+        },
+        {
+          "file": "frontend/src/app/[lang]/loading.tsx",
+          "hash": "1653465671237619610"
+        },
+        {
+          "file": "frontend/src/app/[lang]/not-found.tsx",
+          "hash": "2272048311815593229"
+        },
+        {
+          "file": "frontend/src/app/[lang]/page.tsx",
+          "hash": "405887795803988913"
+        },
+        {
+          "file": "frontend/src/app/[lang]/profile/page.tsx",
+          "hash": "13562457667931462093"
+        },
+        {
+          "file": "frontend/src/app/[lang]/settings/page.tsx",
+          "hash": "7312715236758019988"
+        },
+        {
+          "file": "frontend/src/app/[lang]/top/page.tsx",
+          "hash": "12651126294140094439"
+        },
+        {
+          "file": "frontend/src/app/error.tsx",
+          "hash": "4520411873175186559"
+        },
+        {
+          "file": "frontend/src/app/globals.css",
+          "hash": "8663104670391954280"
+        },
+        {
+          "file": "frontend/src/app/layout.tsx",
+          "hash": "14225363248847217971"
+        },
+        {
+          "file": "frontend/src/app/not-found.tsx",
+          "hash": "2272048311815593229"
+        },
+        {
+          "file": "frontend/src/app/page.tsx",
+          "hash": "445104958939611855"
+        },
+        {
+          "file": "frontend/src/components/CreateGame.tsx",
+          "hash": "3296116909184970038"
+        },
+        {
+          "file": "frontend/src/components/GamesList.tsx",
+          "hash": "4880989362913958847"
+        },
+        {
+          "file": "frontend/src/components/Loading.tsx",
+          "hash": "13348660168442912047"
+        },
+        {
+          "file": "frontend/src/components/Navigation.tsx",
+          "hash": "17127516226591770153"
+        },
+        {
+          "file": "frontend/src/components/TextWithCoin.tsx",
+          "hash": "3656896015319453525"
+        },
+        {
+          "file": "frontend/src/components/UserCard.tsx",
+          "hash": "173591315306832911"
+        },
+        {
+          "file": "frontend/src/components/game/Balance.tsx",
+          "hash": "5091867436752359064"
+        },
+        {
+          "file": "frontend/src/components/game/BottomLine.tsx",
+          "hash": "8763361818856441686"
+        },
+        {
+          "file": "frontend/src/components/game/Toast.tsx",
+          "hash": "4396965303082791618"
+        },
+        {
+          "file": "frontend/src/components/game/WaitingBanner.tsx",
+          "hash": "16462543756045839993"
+        },
+        {
+          "file": "frontend/src/components/game/players/CircularProgressBar.tsx",
+          "hash": "9836504811931728148"
+        },
+        {
+          "file": "frontend/src/components/game/players/Information.tsx",
+          "hash": "6196287422868491979"
+        },
+        {
+          "file": "frontend/src/components/game/players/Player.tsx",
+          "hash": "6860725881858986682"
+        },
+        {
+          "file": "frontend/src/components/game/players/index.tsx",
+          "hash": "15329274076290968148"
+        },
+        {
+          "file": "frontend/src/components/game/table/Card.tsx",
+          "hash": "1256195050141948449"
+        },
+        {
+          "file": "frontend/src/components/game/table/CardFan.tsx",
+          "hash": "4877190997053941051"
+        },
+        {
+          "file": "frontend/src/components/game/table/CardInFan.tsx",
+          "hash": "13756400374065625433"
+        },
+        {
+          "file": "frontend/src/components/game/table/ChooseColor.tsx",
+          "hash": "9085073493438883492"
+        },
+        {
+          "file": "frontend/src/components/game/table/MainCard.tsx",
+          "hash": "4707465829056861956"
+        },
+        {
+          "file": "frontend/src/components/game/table/index.tsx",
+          "hash": "6741520759269037413"
+        },
+        {
+          "file": "frontend/src/contexts/Dimension.tsx",
+          "hash": "18163516026759117811"
+        },
+        {
+          "file": "frontend/src/contexts/Game.tsx",
+          "hash": "12481012647161334708"
+        },
+        {
+          "file": "frontend/src/contexts/Loader.tsx",
+          "hash": "15429821142363179155"
+        },
+        {
+          "file": "frontend/src/contexts/TMA.tsx",
+          "hash": "10644914790916249050"
+        },
+        {
+          "file": "frontend/src/contexts/Toast.tsx",
+          "hash": "14866530465300935422"
+        },
+        {
+          "file": "frontend/src/hooks/useBackButton.ts",
+          "hash": "12745805995813031962"
+        },
+        {
+          "file": "frontend/src/hooks/useBackButtonGame.ts",
+          "hash": "4917557862805435327"
+        },
+        {
+          "file": "frontend/src/hooks/useHapticFeedback.ts",
+          "hash": "11168052722885838398"
+        },
+        {
+          "file": "frontend/src/hooks/useThisPlayer.ts",
+          "hash": "7133588932235101113"
+        },
+        {
+          "file": "frontend/src/i18n.ts",
+          "hash": "14843562950965305109"
+        },
+        {
+          "file": "frontend/src/middleware.ts",
+          "hash": "4758557724733535228"
+        },
+        {
+          "file": "frontend/src/services/colyseus.ts",
+          "hash": "5457232991044514496"
+        },
+        {
+          "file": "frontend/src/services/establishConnect.ts",
+          "hash": "8916761536492553494"
+        },
+        {
+          "file": "frontend/src/typings/game.ts",
+          "hash": "4200658734887966646"
+        },
+        {
+          "file": "frontend/src/utils/cardColorsCode.ts",
+          "hash": "9987353979857240268"
+        },
+        {
+          "file": "frontend/src/utils/converKeysToCssVars.ts",
+          "hash": "9233292566949921517"
+        },
+        {
+          "file": "frontend/src/utils/getParticipants.ts",
+          "hash": "8688218327118892683"
+        },
+        {
+          "file": "frontend/src/utils/getUser.ts",
+          "hash": "5016963223541276246"
+        },
+        {
+          "file": "frontend/src/utils/lightenColor.ts",
+          "hash": "16420040769500551315"
+        },
+        {
+          "file": "frontend/src/utils/rearrange.ts",
+          "hash": "17656020204294849541"
+        },
+        {
+          "file": "frontend/src/utils/serialize.ts",
+          "hash": "9035023480245898659"
+        },
+        {
+          "file": "frontend/src/utils/shiftArray.ts",
+          "hash": "11793330454709594638"
+        },
+        {
+          "file": "frontend/tailwind.config.js",
+          "hash": "468469191159302956"
+        },
+        {
+          "file": "frontend/tsconfig.json",
+          "hash": "16754622892825228323"
+        }
+      ],
+      "common": [
+        {
+          "file": "common/.eslintrc.json",
+          "hash": "429167062737312206"
+        },
+        {
+          "file": "common/database/adRef.ts",
+          "hash": "18060211128981204057"
+        },
+        {
+          "file": "common/database/adView.ts",
+          "hash": "14558838727127425003"
+        },
+        {
+          "file": "common/database/deposit.ts",
+          "hash": "8634055629998776734"
+        },
+        {
+          "file": "common/database/game.ts",
+          "hash": "6260317915477806699"
+        },
+        {
+          "file": "common/database/group.ts",
+          "hash": "7111331964756027412"
+        },
+        {
+          "file": "common/database/index.ts",
+          "hash": "7723647209049372780"
+        },
+        {
+          "file": "common/database/user.ts",
+          "hash": "10255345804094035116"
+        },
+        {
+          "file": "common/index.ts",
+          "hash": "12158950576061763871"
+        },
+        {
+          "file": "common/locales/de.json",
+          "hash": "9265684354041256538"
+        },
+        {
+          "file": "common/locales/en.json",
+          "hash": "6885366777231336100"
+        },
+        {
+          "file": "common/locales/es.json",
+          "hash": "3075027875458587502"
+        },
+        {
+          "file": "common/locales/hi.json",
+          "hash": "4514157113962329819"
+        },
+        {
+          "file": "common/locales/it.json",
+          "hash": "16187496477783437900"
+        },
+        {
+          "file": "common/locales/pt.json",
+          "hash": "8594448998191780250"
+        },
+        {
+          "file": "common/locales/ru.json",
+          "hash": "15465306803344804594"
+        },
+        {
+          "file": "common/locales/tr.json",
+          "hash": "1820702430387499862"
+        },
+        {
+          "file": "common/locales/uk.json",
+          "hash": "3595891813043976341"
+        },
+        {
+          "file": "common/locales/uz.json",
+          "hash": "6422624144055215112"
+        },
+        {
+          "file": "common/locales/zh.json",
+          "hash": "1458062402943894261"
+        },
+        {
+          "file": "common/package.json",
+          "hash": "12079203169864996092",
+          "deps": [
+            "npm:@colyseus/schema",
+            "npm:@types/node",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-perfectionist",
+            "npm:eslint-plugin-prettier",
+            "npm:lint-staged",
+            "npm:prettier",
+            "npm:prettier-plugin-organize-imports",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "common/tsconfig.json",
+          "hash": "7608970721914936064"
+        },
+        {
+          "file": "common/typings/game.ts",
+          "hash": "2337092990299103499"
+        },
+        {
+          "file": "common/typings/languages.ts",
+          "hash": "8947645484760805292"
+        },
+        {
+          "file": "common/typings/player.ts",
+          "hash": "7902956442175591011"
+        },
+        {
+          "file": "common/typings/socket.ts",
+          "hash": "2703618714816149570"
+        },
+        {
+          "file": "common/typings/yandex.ts",
+          "hash": "10337104611336206746"
+        },
+        {
+          "file": "common/typings/сard.ts",
+          "hash": "7171178948816367713"
+        },
+        {
+          "file": "common/utils/cardCanBeUsed.ts",
+          "hash": "10289118937026975188"
+        },
+        {
+          "file": "common/utils/cardsCanBeUsed.ts",
+          "hash": "9393033157335971602"
+        },
+        {
+          "file": "common/utils/convertChars.ts",
+          "hash": "9227840708618807233"
+        },
+        {
+          "file": "common/utils/index.ts",
+          "hash": "7855682763616703705"
+        },
+        {
+          "file": "common/utils/isArrayEqual.ts",
+          "hash": "16978740670122686463"
+        },
+        {
+          "file": "common/utils/roundNumber.ts",
+          "hash": "15591796649445099388"
+        },
+        {
+          "file": "common/utils/shuffle.ts",
+          "hash": "7902820982232011267"
+        },
+        {
+          "file": "common/utils/sleep.ts",
+          "hash": "8052093851648289192"
+        }
+      ],
+      "bot": [
+        {
+          "file": "bot/.env.example",
+          "hash": "9367324491548526207"
+        },
+        {
+          "file": "bot/.eslintrc.json",
+          "hash": "14746997498214496957"
+        },
+        {
+          "file": "bot/.prettierignore",
+          "hash": "10129363460133129087"
+        },
+        {
+          "file": "bot/locales/de.ftl",
+          "hash": "17227149697246722901"
+        },
+        {
+          "file": "bot/locales/en.ftl",
+          "hash": "6723041224370622241"
+        },
+        {
+          "file": "bot/locales/es.ftl",
+          "hash": "4767984818129426314"
+        },
+        {
+          "file": "bot/locales/hi.ftl",
+          "hash": "16446018437943658583"
+        },
+        {
+          "file": "bot/locales/it.ftl",
+          "hash": "6570713519839652349"
+        },
+        {
+          "file": "bot/locales/pt.ftl",
+          "hash": "3912100774290881101"
+        },
+        {
+          "file": "bot/locales/ru.ftl",
+          "hash": "9506797083676414467"
+        },
+        {
+          "file": "bot/locales/tr.ftl",
+          "hash": "8128303448169969223"
+        },
+        {
+          "file": "bot/locales/uk.ftl",
+          "hash": "17847146558015946146"
+        },
+        {
+          "file": "bot/locales/uz.ftl",
+          "hash": "8024469665798671259"
+        },
+        {
+          "file": "bot/locales/zh.ftl",
+          "hash": "13629863648741213880"
+        },
+        {
+          "file": "bot/package.json",
+          "hash": "17145110574295635727",
+          "deps": [
+            "npm:@grammyjs/conversations",
+            "npm:@grammyjs/hydrate",
+            "npm:@grammyjs/i18n",
+            "npm:@grammyjs/menu",
+            "npm:@grammyjs/parse-mode",
+            "npm:@grammyjs/router",
+            "npm:@grammyjs/runner",
+            "npm:@roziscoding/grammy-autoquote",
+            "npm:croner",
+            "npm:dotenv",
+            "npm:grammy",
+            "npm:mongoose",
+            "npm:short-unique-id",
+            "npm:toad-scheduler",
+            "npm:zod",
+            "npm:@types/node",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-perfectionist",
+            "npm:eslint-plugin-prettier",
+            "npm:lint-staged",
+            "npm:prettier",
+            "npm:prettier-plugin-organize-imports",
+            "npm:ts-node",
+            "npm:ts-node-dev",
+            "npm:tsconfig-paths",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "bot/src/actions/admin/adRef.ts",
+          "hash": "3021046144015485606"
+        },
+        {
+          "file": "bot/src/actions/admin/botStat.ts",
+          "hash": "11076735042559051314"
+        },
+        {
+          "file": "bot/src/actions/admin/index.ts",
+          "hash": "1320459523006965992"
+        },
+        {
+          "file": "bot/src/actions/admin/statistics.ts",
+          "hash": "9344577875646918554"
+        },
+        {
+          "file": "bot/src/actions/deleteEvent.ts",
+          "hash": "7853539896067138992"
+        },
+        {
+          "file": "bot/src/actions/inlineShare.ts",
+          "hash": "5528675185973342264"
+        },
+        {
+          "file": "bot/src/actions/language.ts",
+          "hash": "2968942946315097489"
+        },
+        {
+          "file": "bot/src/actions/myChatMember.ts",
+          "hash": "1818389662512862646"
+        },
+        {
+          "file": "bot/src/actions/profile.ts",
+          "hash": "7482571272347847438"
+        },
+        {
+          "file": "bot/src/actions/start.ts",
+          "hash": "4032444275924576205"
+        },
+        {
+          "file": "bot/src/actions/uno.ts",
+          "hash": "3235999071341527140"
+        },
+        {
+          "file": "bot/src/helpers/saveModifier.ts",
+          "hash": "9438235833107343104"
+        },
+        {
+          "file": "bot/src/helpers/sendOrEdit.ts",
+          "hash": "6758915695866501363"
+        },
+        {
+          "file": "bot/src/helpers/uploadImage.ts",
+          "hash": "9553220125307801066"
+        },
+        {
+          "file": "bot/src/i18n.ts",
+          "hash": "10012119896550078541"
+        },
+        {
+          "file": "bot/src/index.ts",
+          "hash": "9855124341184107268"
+        },
+        {
+          "file": "bot/src/middlewares/adRef.ts",
+          "hash": "9003471546257066596"
+        },
+        {
+          "file": "bot/src/middlewares/isAdmin.ts",
+          "hash": "27391788853839085"
+        },
+        {
+          "file": "bot/src/middlewares/setGroup.ts",
+          "hash": "869534696865078538"
+        },
+        {
+          "file": "bot/src/middlewares/setUser.ts",
+          "hash": "13697338064659106654"
+        },
+        {
+          "file": "bot/src/services/updateAliveEntities.ts",
+          "hash": "6773848874143436481"
+        },
+        {
+          "file": "bot/src/services/updateBotStat.ts",
+          "hash": "2593028410293561168"
+        },
+        {
+          "file": "bot/src/services/updateCommands.ts",
+          "hash": "12889663857108375485"
+        },
+        {
+          "file": "bot/src/services/updateDescriptions.ts",
+          "hash": "1891569725255146571"
+        },
+        {
+          "file": "bot/src/typings/config.ts",
+          "hash": "13787443528708257231"
+        },
+        {
+          "file": "bot/src/typings/context.ts",
+          "hash": "3813544364652269109"
+        },
+        {
+          "file": "bot/tsconfig.json",
+          "hash": "16937120378921347197"
+        }
+      ],
+      "backend": [
+        {
+          "file": "backend/.env.example",
+          "hash": "12039166869955321234"
+        },
+        {
+          "file": "backend/.eslintrc.json",
+          "hash": "429167062737312206"
+        },
+        {
+          "file": "backend/package.json",
+          "hash": "666623239125699895",
+          "deps": [
+            "npm:@colyseus/schema",
+            "npm:@colyseus/tools",
+            "npm:@colyseus/uwebsockets-transport",
+            "npm:@tma.js/init-data-node",
+            "npm:@tma.js/sdk",
+            "npm:axios",
+            "npm:colyseus",
+            "npm:mongoose",
+            "npm:short-unique-id",
+            "npm:uWebSockets.js",
+            "npm:@colyseus/loadtest",
+            "npm:@colyseus/testing",
+            "npm:@types/cors",
+            "npm:@types/express",
+            "npm:@types/node",
+            "npm:@types/serve-index",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-perfectionist",
+            "npm:eslint-plugin-prettier",
+            "npm:lint-staged",
+            "npm:prettier",
+            "npm:prettier-plugin-organize-imports",
+            "npm:ts-node",
+            "npm:ts-node-dev",
+            "npm:tsconfig-paths",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "backend/src/actions/api/createOrder.ts",
+          "hash": "16140508581972385749"
+        },
+        {
+          "file": "backend/src/actions/api/getGameById.ts",
+          "hash": "14579942602318790608"
+        },
+        {
+          "file": "backend/src/actions/api/getUserInfo.ts",
+          "hash": "9259201558723751011"
+        },
+        {
+          "file": "backend/src/actions/api/index.ts",
+          "hash": "10595897590455225036"
+        },
+        {
+          "file": "backend/src/actions/api/receiveOrder.ts",
+          "hash": "8854493755705445008"
+        },
+        {
+          "file": "backend/src/actions/api/receiveReward.ts",
+          "hash": "17273778582482651813"
+        },
+        {
+          "file": "backend/src/actions/api/topOfUsers.ts",
+          "hash": "10851396180131242322"
+        },
+        {
+          "file": "backend/src/actions/api/webhookForOrder.ts",
+          "hash": "12487565743662180921"
+        },
+        {
+          "file": "backend/src/actions/moves/index.ts",
+          "hash": "10704419816182948355"
+        },
+        {
+          "file": "backend/src/actions/moves/playerChosenCardColor.ts",
+          "hash": "3361340045718867995"
+        },
+        {
+          "file": "backend/src/actions/moves/playerPutCard.ts",
+          "hash": "18181854418104915540"
+        },
+        {
+          "file": "backend/src/actions/moves/playerSkip.ts",
+          "hash": "14637075135058802715"
+        },
+        {
+          "file": "backend/src/actions/moves/playerTakeCard.ts",
+          "hash": "10640911653175038601"
+        },
+        {
+          "file": "backend/src/actions/moves/playerToggledReady.ts",
+          "hash": "4098366312217963495"
+        },
+        {
+          "file": "backend/src/actions/moves/shoutUno.ts",
+          "hash": "7724905720633274697"
+        },
+        {
+          "file": "backend/src/actions/moves/surrender.ts",
+          "hash": "16510301087515225338"
+        },
+        {
+          "file": "backend/src/actions/onAuth.ts",
+          "hash": "7633367136193670742"
+        },
+        {
+          "file": "backend/src/actions/onCreate.ts",
+          "hash": "224455557254022231"
+        },
+        {
+          "file": "backend/src/actions/onDispose.ts",
+          "hash": "5519504353709876554"
+        },
+        {
+          "file": "backend/src/actions/onJoin.ts",
+          "hash": "3829319048828750053"
+        },
+        {
+          "file": "backend/src/actions/onLeave.ts",
+          "hash": "7427756213715525352"
+        },
+        {
+          "file": "backend/src/actions/onMessage.ts",
+          "hash": "15403215813226406751"
+        },
+        {
+          "file": "backend/src/actions/timer.ts",
+          "hash": "11467551353397720808"
+        },
+        {
+          "file": "backend/src/helpers/clearTimer.ts",
+          "hash": "6235475470910355523"
+        },
+        {
+          "file": "backend/src/helpers/endGame.ts",
+          "hash": "12892378304261450418"
+        },
+        {
+          "file": "backend/src/helpers/findUser.ts",
+          "hash": "10456269607682397438"
+        },
+        {
+          "file": "backend/src/helpers/kickInactive.ts",
+          "hash": "6854728102346513125"
+        },
+        {
+          "file": "backend/src/helpers/send.ts",
+          "hash": "4812178983490666961"
+        },
+        {
+          "file": "backend/src/helpers/setTimer.ts",
+          "hash": "8133908985523077599"
+        },
+        {
+          "file": "backend/src/helpers/startGame.ts",
+          "hash": "975337743137279299"
+        },
+        {
+          "file": "backend/src/helpers/updateMetadata.ts",
+          "hash": "15956537223980898894"
+        },
+        {
+          "file": "backend/src/helpers/updateUser.ts",
+          "hash": "2174034746256902977"
+        },
+        {
+          "file": "backend/src/index.ts",
+          "hash": "942566032013981916"
+        },
+        {
+          "file": "backend/src/typings/config.ts",
+          "hash": "15306515776776965989"
+        },
+        {
+          "file": "backend/src/typings/devHeaders.json",
+          "hash": "2757553614049046268"
+        },
+        {
+          "file": "backend/src/typings/gameAccruals.ts",
+          "hash": "6213229851732789585"
+        },
+        {
+          "file": "backend/src/typings/room.ts",
+          "hash": "94749471063874890"
+        },
+        {
+          "file": "backend/src/typings/wallet.ts",
+          "hash": "2969498710674229736"
+        },
+        {
+          "file": "backend/src/utils/addCORS.ts",
+          "hash": "4892361415356874113"
+        },
+        {
+          "file": "backend/src/utils/collectRequestBody.ts",
+          "hash": "17217710118055674802"
+        },
+        {
+          "file": "backend/src/utils/computeSignature.ts",
+          "hash": "7799204732977564888"
+        },
+        {
+          "file": "backend/src/utils/countPoints.ts",
+          "hash": "15419118890754538327"
+        },
+        {
+          "file": "backend/src/utils/getRandomTrueIndex.ts",
+          "hash": "16145289843875249977"
+        },
+        {
+          "file": "backend/src/utils/sortCards.ts",
+          "hash": "15218550150509304320"
+        },
+        {
+          "file": "backend/src/utils/validation.ts",
+          "hash": "5179265855084830924"
+        },
+        {
+          "file": "backend/tsconfig.json",
+          "hash": "9145097011686879021"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "17510555838333559419"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "15155389491990434232"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "4552778740376862362"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "847751354975167168"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "5370373182968635953"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "2696699379603851957"
+      },
+      {
+        "file": ".yarn/releases/yarn-3.6.4.cjs",
+        "hash": "7984485459782488261"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "1923551468293289439"
+      },
+      {
+        "file": "README.md",
+        "hash": "15987914806696395662"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "11837639995828238440"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6934541845912584670"
+      },
+      {
+        "file": "package.json",
+        "hash": "9691841853949051902"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "4400570514739074505"
+      }
+    ]
+  }
+}
